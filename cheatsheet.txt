@@ -1,0 +1,12 @@
+Cheatsheet.txt Pim
+ls = command for folder(all)
+ls + foldername + tab = specific folder
+cd + foldername = taking into specific folder
+cd .. = get out of the folder
+gedit + foldername + & = get into the file
+gedit + foldername = create/open file
+git add + foldername = add file to website
+git commit + -m + "______" = see changes
+control c = cancle previous command and 'reset'
+get push = get file into web. (when in the folder)
+git clone --config="http.proxy=http://your-network-username:your-network-password@192.168.2.1:8080" https://github.com/your-github-username/your-github-repository-name.git = clone file
