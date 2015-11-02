@@ -1,0 +1,9 @@
+get into the Terminal which looks like a black square surrounded by silvery lines with a greater sign and a "_" 
+clone your repositories folder into the computer by writing a command "git clone --config="http.proxy=http://pim2066:053234567@192.168.2.1:8080" https://github.com/pim2066-cmis/pim2066-cmis-wd.git"
+Get into the folder that was cloned by writing a command "cd 'foldername'"
+To create a folder, write "gedit 'filename that dont exist'"
+A new window will show up and that is where you would write your things in 
+Finish editing the file, press Ctrl S to save, and close the window
+and git add into the website by writing "get add 'filename'"
+Then git commit the file by writing the command "git commit -m 'what i did'" to see the changes you made
+Then git push the file by writing "git push" and then you would need to write down your username of the GITHUB and your password to your acount. Keep in mind that the password won't show when you type it in.
