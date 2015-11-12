@@ -1,15 +1,5 @@
-h2 {
-	color: #a7e8f8; 
-	font-family: 'Julius Sans One', sans-serif; 
-	font-size: 24px; 
-	font-weight: bold; 
-	line-height: 32px; 
-	margin: 0 0 24px; 
-	text-shadow: 1px 1px 1px #082b34;
-}
-
 h1 { 
-	color: #d54d7b; 
+	color:#FF69B4 ; 
 	font-family: "Great Vibes", cursive; 
 	font-size: 50px; 
 	line-height: 60px;
@@ -17,37 +7,55 @@ h1 {
 	margin-bottom: 0px;
 	margin-top: 20px; 
 	text-align: center; 
-	text-shadow: 0 1px 1px #fff; }
+	text-shadow: 0 1px 1px #fff; 
+	background-color: #90EE90;
+	border: outset #32CD32;
+}
+
+
+h2 {
+	color:#FF00FF; 
+	font-family: 'Julius Sans One', sans-serif; 
+	font-size: 30px; 
+	font-weight: bold; 
+	line-height: 32px; 
+	margin: 0 0 24px; 
+	text-shadow: 2px 2px 1px#DDA0DD;
+	border: inset;
+	border-color: #ADFF2F #F0E68C;
+	background-color: #F0FFFF;
+}
+
+body{
+	background-color: #6A5ACD;
+	border: outset #4682B4;
+}
 
 html{
 	background-color:#ADD8E6;
 	border: dashed#000080;
 }
 
-h2{
-	font-family:Futura, Impact, Helvetica, Arial, sans-serif;
-	color:#800080;
-	border: dashed#4B0082;
-	background-color:#9370DB;
-}
-
 footer{
-	font-family:‘Goudy Old Style’, garamond, ‘book antiqua’, ‘Times New Roman’, Times, serif sequence;
+	font-family:"Goudy Old Style", "Times New Roman", Times, serif sequence;
 	color:	#FAEBD7;
 	border: dashed#D2691E;
 	background-color: #006400;
 }
 	
- p {
+p{
         color: #424242;
-        font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
+        font-family:"Hoefler Text", Georgia, Times, serif;
 	letter-spacing:0.1em;
 	margin: 40px auto;
 	text-transform: lowercase;
 	line-height: 145%;
 	font-size: 14pt;
 	font-variant: small-caps;
-        }
+	text-shadow: 1px 1px #808080;
+	border: double #F08080;
+	background-color: #FFB6C1;
+}
 
 	
 	
