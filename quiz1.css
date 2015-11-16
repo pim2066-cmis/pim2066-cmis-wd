@@ -1,0 +1,31 @@
+h1 { 
+	font-family: Impact, fantasy;
+	font-style: Italic;
+	color: yellow;
+	font-size: 25px;
+	background-color:green;
+}
+
+h2 {
+	font-family:Impact, fantasy;
+	font-style: Italic;
+	color: blue;
+	font-size: 9px;
+	background-color:red;
+	line-height: 200%;
+	border: dashed yellow;
+	border-bottom: dashed 10px yellow;
+	border-left: hidden ;
+	border-right: hidden ;
+}
+
+h3 {
+	font-family: Sans-serif;
+	color: yellow:
+	background-color: purple;
+}
+
+h4 {
+	font-family: Sans-serif;
+	color: purple;
+}
