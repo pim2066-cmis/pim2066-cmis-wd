@@ -6,6 +6,13 @@ h1 {
 	background-color:green;
 }
 
+main {
+	border-width: 10px;
+	border-left: orange groove;
+	border-right: orange groove;
+	border-collapse: collapes;
+}
+
 h2 {
 	font-family:Impact, fantasy;
 	font-style: Italic;
@@ -28,4 +35,24 @@ h3 {
 h4 {
 	font-family: Sans-serif;
 	color: purple;
+	background-color: yellow;
+	border: dashed purple;
+	border-left: hidden;
+	border-right: hidden;
+	border-bottom: hidden;
+}
+
+p {
+	font-family: Sans-serif;
+	color: blue;
+	line-height: 200%;
+}
+
+footer {
+	font-family: Sans-serif;
+	color: blue;
+	border-left: red solid 10px;
+	border-right: blue solid 10px;
+	border-top: dotted black 3px;
+	line-height: 30px;
 }
