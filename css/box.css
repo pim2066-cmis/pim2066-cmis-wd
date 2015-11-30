@@ -1,10 +1,28 @@
-h1 { 
+html {
 	background-color: #66FFFF;
-	width: 120px;
-	padding: 10px;
-	border: 10px solid #66FF66;
-	font-family: "Arial Black", Gadget, sans-serif ;
+}
+
+h1 { 
+	background-color: #6699FF;
+	border: 10px solid #6600FF;
+	font-family: "Arial Black", Gadget, sans-serif;
 	color: #330066;
+	height: 50px;
+	text-align: center;
+	margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 100px;
+        margin-left: 100px; 
+}
+
+h2 {
+	background-color: #0099FF;
+	width: 300px;
+	padding: 5px;
+	border: 5px groove #3300FF;
+	font-family: "Hoefler Text", Georgia, Times, serif;
+	text-shadow: 1px 1px #808080;
+	color: #FFFF66;
 }
 	
 p {
@@ -13,5 +31,45 @@ p {
 	padding: 20 px;
 	border: 7px dashed #990033;
 	font-family: "Arial Black", Gadget, sans-serif;
-	color: 
+	color: purple;
 }
+
+tables, td, th {
+	border: 1px solid #191970;
+	background-color: #6A5ACD;
+	color: #00FFFF;
+}
+
+ol {
+	font-family: Parkavenue, cursive;
+	color: #FFD700;
+	text-shadow: 1px 1px #FF8C00;
+	background-color: #0000ff;
+	border: groove 8px #00ffff;
+}
+
+h3 {
+	font-family: fantasy 200px;
+	color: #f2460d;
+	text-shadow: 2px 1px #0df2f2;
+	background-color: #ffe5ff;
+	border: dashed solid #ff0066;
+	width: 100px;
+	padding: 5px;
+}
+
+ul {
+	font-family: Courier New, monospace;
+	color: #000066;
+	background-color: #f2e5ff;
+	width: 300px;
+	padding: 10px;
+	border: 7px solid ;
+}
+
+tables > tbody {
+	background-color: #80b3ff;
+}
+
+
+
