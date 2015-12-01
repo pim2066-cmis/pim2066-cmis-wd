@@ -20,7 +20,7 @@ h2 {
 	width: 300px;
 	padding: 5px;
 	border: 5px groove #3300FF;
-	font-family: "Hoefler Text", Georgia, Times, serif;
+	font-family: Parkavenue, cursive;
 	text-shadow: 1px 1px #808080;
 	color: #FFFF66;
 }
@@ -38,6 +38,7 @@ tables, td, th {
 	border: 1px solid #191970;
 	background-color: #6A5ACD;
 	color: #00FFFF;
+	text-shadow: 1px 1px #3300CC;
 }
 
 ol {
@@ -67,9 +68,34 @@ ul {
 	border: 7px solid ;
 }
 
-tables > tbody {
-	background-color: #80b3ff;
+tr > th {
+	background-color: #330099;
+	color: #00FFFF;
 }
+
+tr + td {
+	background-color: #006633;
+	color: #FFFF00;
+}
+
+tfoot td {
+	background-color: #CC0066;
+}
+
+footer {
+	color: #FF9900;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
