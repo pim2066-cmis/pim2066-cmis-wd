@@ -13,6 +13,7 @@ h1 {
         margin-bottom: 20px;
         margin-right: 100px;
         margin-left: 100px; 
+	width: 800px;
 }
 
 h2 {
@@ -27,7 +28,7 @@ h2 {
 	
 p {
 	background-color: #66FF99;
-	width: 300px;
+	width: 400px;
 	padding: 20 px;
 	border: 7px dashed #990033;
 	font-family: "Arial Black", Gadget, sans-serif;
@@ -63,9 +64,9 @@ ul {
 	font-family: Courier New, monospace;
 	color: #000066;
 	background-color: #f2e5ff;
-	width: 300px;
+	width: 700px;
 	padding: 10px;
-	border: 7px solid ;
+	border: 7px solid red;
 }
 
 tr > th {
@@ -86,11 +87,26 @@ footer {
 	color: #FF9900;
 }
 
+h4 {
+	color: #33FF00;
+	background-color: #990000;
+	width: 300px;
+	padding: 10px;
+	border: 7px groove ;
+}
 
-
-
-
-
+p1 {
+	color:#FF00FF; 
+	font-family: 'Julius Sans One', sans-serif; 
+	font-size: 20px; 
+	font-weight: bold; 
+	line-height: 32px; 
+	margin: 0 0 24px; 
+	text-shadow: 2px 2px 1px#DDA0DD;
+	border: inset;
+	border-color: #ADFF2F #F0E68C;
+	background-color: #F0FFFF;
+}
 
 
 
