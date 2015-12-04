@@ -1,0 +1,16 @@
+
+h1 {
+	background-color: red;
+	border: solid yellow;
+	width: 500px;
+}
+
+body~p{
+	color: white;
+	background-color: red;
+}
+
+h2~ul{
+	border: solid black;
+	margin-left: 100px;
+}
