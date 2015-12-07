@@ -1,7 +1,7 @@
 
 h1 {
 	background-color: red;
-	border: solid red;
+	border: solid yellow;
 	width: 500px;
 }
 
@@ -22,8 +22,31 @@ main > p{
 	background-color: white;
 }
 
-main > p2{
+main > p1{
 	background-color:black;
 	color:white;
+}
+
+tbody td{ 
+	background: white; 
+	text-align: center;
+	border-collapse: collapse;
+	width: 30%;
+}
+
+tbody th{
+        color: red;
+}
+
+
+th { background: yellow; }
+
+tfoot th{ 
+	background-color: red; 
+	color: yellow;
+}
+
+tfoot td{
+        background-color: white;
 }
 
