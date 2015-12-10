@@ -1,12 +1,30 @@
 
-h1 {
-	background-color: red;
-	border: solid yellow;
-	width: 500px;
+header {
+	background:red;
+        padding: 50px 30px 50px 80px;
+        width:300px
+
+}
+h1 { 
+	  border: 2px solid yellow;
+         
+}
+header > p{
+           color:white;
+           background-color: red;
+ 
 }
 
-header p{
-	color: white;
+nav { 	
+	 border: 1px solid black;
+	 margin: 75px;
+         width: 1000px;
+}
+
+
+p + p {
+        background-color: black;
+        color: white;
 }
 
 h2+ul{
@@ -50,3 +68,14 @@ tfoot td{
         background-color: white;
 }
 
+footer{
+	width:1000px;
+	border:10px dashed blue;
+	padding-top: 20px;
+	padding-left: 5px;
+    	padding-bottom: 20px;
+}
+
+span. highlight {
+    background-color: blue;
+}
