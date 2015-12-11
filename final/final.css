@@ -1,15 +1,24 @@
-img {
-   width: 200px;
-   height:100px;
+.wrapper {
+  width: 100%;
+  /* whatever width you want */
+  display: inline-block;
+  position: relative;
+  background-size: contain !important;
+  background: url('http://cdn.playbuzz.com/cdn/6eb513d0-aa4b-47bf-829a-4cda6e203ff1/5419d0e7-a380-4737-8c50-b07fb102131e_560_420.jpg')center no-repeat;
 }
-
-h1 {
-   position: absolute;
-   top: 200px;
-   left: 0;
-   width: 100%;
-   margin-left: 200px;
-   width: 300px;
-   height: 50px;
+.wrapper:after {
+  padding-top: 75%;
+  display: block;
+  content: '';
 }
+.main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: black;
+  text-align: center;
+ margin-top: 30%;
 
+}
