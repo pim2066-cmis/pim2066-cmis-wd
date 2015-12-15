@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Russo+One);
 @import url(https://fonts.googleapis.com/css?family=Candal);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Cinzel+Decorative:900);
 
 header {
   width: 100%;
@@ -63,4 +64,10 @@ nav {
   font-family: 'Pacifico', cursive;
   color:  #004d00;
   text-shadow: 2px 2px  #e68a00;
+}
+
+h2 {
+  color:   #000066;
+  font-family: 'Cinzel Decorative', cursive;
+  text-shadow: 2px 2px 4px  #4c0099;
 }
