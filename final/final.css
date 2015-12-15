@@ -1,3 +1,8 @@
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+@import url(https://fonts.googleapis.com/css?family=Candal);
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
 header {
   width: 100%;
   display: inline-block;
@@ -23,11 +28,39 @@ header {
 }
 
 nav {
-  margin-left: 250px;
+  width: 250px;
+  float: left;
 }
 
 main {
   margin-left: 251px;
 }
 
-table
+table {
+background-color: #b3c6ff;
+}
+
+p {
+  color:  #00004d;
+  font-family: 'Indie Flower', cursive;
+  text-shadow:  1px 1px #002db3;
+  
+}
+
+th {
+  color:  #000080;
+  font-family: 'Russo One', sans-serif;
+  text-shadow:  1px 1px #00feff;
+}
+
+h4 {
+  color:  #00ffcc;
+  text-shadow: 2px 2px  #00997a;
+  font-family: 'Candal', sans-serif;
+}
+
+nav {
+  font-family: 'Pacifico', cursive;
+  color:  #004d00;
+  text-shadow: 2px 2px  #e68a00;
+}
