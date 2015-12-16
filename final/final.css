@@ -73,16 +73,19 @@ th > h2 {
 }
 
 h2 {
-  color:  #003380;
-  text-shadow: 2px 2px  #80ffd4;
+  color:   #005ce6;
+  text-shadow: 1px 1px 5px  #0066ff;
 }
+
 p {
 color: white;
 text-shadow: 1px 1px  #ffff66;
-
 }
 
 body {
 background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/11/HD-Galaxy-Wallpapers-Free-Download-119.jpg);
 }
 
+footer {
+  color: white;
+}
