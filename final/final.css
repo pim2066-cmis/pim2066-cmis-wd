@@ -41,7 +41,7 @@ table {
 background-color: #b3c6ff;
 }
 
-p {
+td > p {
   color:  #00004d;
   font-family: 'Indie Flower', cursive;
   text-shadow:  1px 1px #002db3;
@@ -66,8 +66,23 @@ nav {
   text-shadow: 2px 2px  #e68a00;
 }
 
-h2 {
+th > h2 {
   color:   #000066;
   font-family: 'Cinzel Decorative', cursive;
   text-shadow: 2px 2px 4px  #4c0099;
 }
+
+h2 {
+  color:  #003380;
+  text-shadow: 2px 2px  #80ffd4;
+}
+p {
+color: white;
+text-shadow: 1px 1px  #ffff66;
+
+}
+
+body {
+background-image: url(http://www.technocrazed.com/wp-content/uploads/2015/11/HD-Galaxy-Wallpapers-Free-Download-119.jpg);
+}
+
