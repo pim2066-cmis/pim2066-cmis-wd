@@ -62,8 +62,35 @@ h4 {
 
 nav {
   font-family: 'Pacifico', cursive;
-  color:  #004d00;
-  text-shadow: 2px 2px  #e68a00;
+  color:  #5900b3;
+  text-shadow: 2px 2px 4px #e68a00;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color:  #80dfff;
+    border: 1px solid #000099;
+    position: fixed;
+    height: 33.3%;
+    overflow: auto;
+}
+
+li a {
+    font-family: 'Pacifico', cursive;
+    display: block;
+    color:  #5900b3;
+    text-shadow: 2px 2px 4px #e68a00;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+    border: 1px solid #000099;
+}
+
+li a:hover {
+    background-color: #3366ff;
+    color: white;
 }
 
 th > h2 {
@@ -79,7 +106,7 @@ h2 {
 
 p {
 color: white;
-text-shadow: 1px 1px  #ffff66;
+text-shadow: 1px 1px 6px  #ffff66;
 }
 
 body {
@@ -90,6 +117,6 @@ footer {
   color: white;
 }
 
-"wizard" {
-float: right;
+logo {
+  float: right;
 }
